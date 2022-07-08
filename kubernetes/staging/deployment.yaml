@@ -7,6 +7,9 @@ metadata:
 spec:
   replicas: 2
   revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: cavs-www
   template:
     metadata:
       labels:
